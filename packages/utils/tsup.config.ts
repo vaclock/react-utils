@@ -7,7 +7,7 @@ export default defineConfig({
   clean: true,
   minify: true,
   treeshake: true,
-  external: ['react', '@react-utils/hooks'],
+  external: ['react', '@vaclock/hooks'],
   outExtension({ format }) {
     return {
       js: format === 'esm' ? '.mjs' : '.js',

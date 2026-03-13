@@ -5,7 +5,7 @@ Countdown Hook.
 ## Usage
 
 ```tsx
-import { useCountdown } from '@react-utils/hooks';
+import { useCountdown } from '@vaclock/utils';
 
 const [time, format] = useCountdown({
   target: Date.now() + 60000,

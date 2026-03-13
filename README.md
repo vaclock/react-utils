@@ -19,7 +19,7 @@ A high-quality collection of React Hooks and Utilities, managed as a monorepo.
 
 | Package | Version | Description |
 | --- | --- | --- |
-| [`@react-utils/hooks`](./packages/hooks) | [![npm](https://img.shields.io/npm/v/@react-utils/hooks.svg)](https://www.npmjs.com/package/@react-utils/hooks) | Collection of essential React Hooks |
+| [`@vaclock/utils`](./packages/utils) | [![npm](https://img.shields.io/npm/v/@vaclock/utils.svg)](https://www.npmjs.com/package/@vaclock/utils) | Collection of essential React Utilities and Hooks (Aggregated Package) |
 | [`apps/docs`](./apps/docs) | - | Documentation website |
 
 ## 🚀 Quick Start
@@ -27,18 +27,18 @@ A high-quality collection of React Hooks and Utilities, managed as a monorepo.
 ### Installation
 
 ```bash
-# Install the hooks package
-npm install @react-utils/hooks
+# Install the utils package (Includes all hooks)
+npm install @vaclock/utils
 # or
-yarn add @react-utils/hooks
+yarn add @vaclock/utils
 # or
-pnpm add @react-utils/hooks
+pnpm add @vaclock/utils
 ```
 
 ### Usage Example
 
 ```tsx
-import { useCountdown } from '@react-utils/hooks';
+import { useCountdown } from '@vaclock/utils';
 
 function App() {
   const [time, format] = useCountdown({

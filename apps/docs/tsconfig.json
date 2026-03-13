@@ -5,7 +5,7 @@
     "rootDir": ".",
     "baseUrl": ".",
     "paths": {
-      "@react-utils/hooks": ["../../packages/hooks/src"]
+      "@vaclock/hooks": ["../../packages/hooks/src"]
     },
     "jsx": "react-jsx",
     "moduleResolution": "bundler",

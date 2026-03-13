@@ -1,1 +1,1 @@
-export * from '@react-utils/hooks';
+export * from '@vaclock/hooks';

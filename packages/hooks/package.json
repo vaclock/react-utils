@@ -1,6 +1,6 @@
 {
-  "name": "@react-utils/hooks",
-  "version": "0.0.1",
+  "name": "@vaclock/hooks",
+  "version": "0.0.0",
   "description": "Custom React Hooks",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
