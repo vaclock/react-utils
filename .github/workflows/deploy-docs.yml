@@ -43,8 +43,8 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - name: Build hooks
-        run: pnpm --filter @vaclock/hooks run build
+      - name: Build packages
+        run: pnpm --filter "./packages/*" run build
 
       - name: Build docs
         run: pnpm --filter docs run docs:build
