@@ -1,0 +1,26 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": ".",
+    "baseUrl": ".",
+    "paths": {
+      "@react-utils/hooks": ["../../packages/hooks/src"]
+    },
+    "jsx": "react-jsx",
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "noEmit": true
+  },
+  "include": [
+    ".vitepress/**/*.ts",
+    ".vitepress/**/*.tsx",
+    ".vitepress/**/*.vue"
+  ],
+  "exclude": [
+    "node_modules", 
+    "dist", 
+    ".vitepress/dist", 
+    ".vitepress/cache"
+  ]
+}
