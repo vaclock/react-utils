@@ -1,6 +1,6 @@
 {
   "name": "@vaclock/utils",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Collection of React Utilities",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
