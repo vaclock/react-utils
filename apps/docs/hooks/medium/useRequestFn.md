@@ -5,7 +5,7 @@
 ## Usage
 
 ```tsx
-import { useRequestFn } from '@react-utils/hooks';
+import { useRequestFn } from '@vaclock/utils';
 
 const [state, fetchUser] = useRequestFn(async (id) => {
   const res = await fetch(`/api/user/${id}`);

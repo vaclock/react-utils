@@ -5,7 +5,7 @@ Async task queue hook, supports sequential execution of async tasks.
 ## Usage
 
 ```tsx
-import { useAsyncQueue } from '@react-utils/hooks';
+import { useAsyncQueue } from '@vaclock/utils';
 
 const { enqueue, result, isRunning } = useAsyncQueue();
 

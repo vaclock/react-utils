@@ -5,7 +5,7 @@ A persistent event callback hook that uses `useRef` to keep the function referen
 ## Usage
 
 ```tsx
-import { useEvent } from '@react-utils/hooks';
+import { useEvent } from '@vaclock/utils';
 import { useState } from 'react';
 
 function App() {

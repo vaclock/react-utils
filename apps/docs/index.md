@@ -18,7 +18,7 @@ pnpm add @react-utils/hooks
 ## 快速开始
 
 ```tsx
-import { useCountdown } from '@react-utils/hooks';
+import { useCountdown } from '@vaclock/utils';
 
 function App() {
   const { count } = useCountdown(60);

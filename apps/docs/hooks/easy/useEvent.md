@@ -5,7 +5,7 @@
 ## Usage
 
 ```tsx
-import { useEvent } from '@react-utils/hooks';
+import { useEvent } from '@vaclock/utils';
 import { useState } from 'react';
 
 function App() {
