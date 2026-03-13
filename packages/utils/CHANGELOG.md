@@ -1,4 +1,4 @@
-# react-utils
+# @vaclock/utils
 
 ## 1.0.0
 
@@ -31,4 +31,4 @@
 ### Patch Changes
 
 - Updated dependencies [8369b97]
-  - @react-utils/hooks@0.0.0-test-20260313082405
+  - @vaclock/hooks@0.0.0-test-20260313082405

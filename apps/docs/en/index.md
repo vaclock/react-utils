@@ -12,7 +12,7 @@ A collection of high-quality React Hooks and Utilities.
 ## Installation
 
 ```bash
-pnpm add @react-utils/hooks
+pnpm add @vaclock/utils
 ```
 
 ## Quick Start

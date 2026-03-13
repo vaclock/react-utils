@@ -1,4 +1,4 @@
-# @react-utils/hooks
+# @vaclock/hooks
 
 ## 1.0.0
 

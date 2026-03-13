@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { usePhysics } from '@react-utils/hooks';
+import { usePhysics } from '@vaclock/utils';
 
 export const PhysicsDemo = () => {
   const [position, setPosition] = useState(0);

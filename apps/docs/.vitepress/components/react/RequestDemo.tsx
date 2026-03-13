@@ -1,5 +1,5 @@
 import React from 'react';
-import { useRequestFn } from '@react-utils/hooks';
+import { useRequestFn } from '@vaclock/utils';
 
 // Mock API
 const mockApi = (id: number) => new Promise((resolve, reject) => {

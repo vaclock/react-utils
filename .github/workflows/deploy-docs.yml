@@ -44,7 +44,7 @@ jobs:
         run: pnpm install
 
       - name: Build hooks
-        run: pnpm --filter @react-utils/hooks run build
+        run: pnpm --filter @vaclock/hooks run build
 
       - name: Build docs
         run: pnpm --filter docs run docs:build

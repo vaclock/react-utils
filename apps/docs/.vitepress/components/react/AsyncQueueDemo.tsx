@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useAsyncQueue } from '@react-utils/hooks';
+import { useAsyncQueue } from '@vaclock/utils';
 
 export const AsyncQueueDemo = () => {
   const { enqueue, isRunning } = useAsyncQueue();

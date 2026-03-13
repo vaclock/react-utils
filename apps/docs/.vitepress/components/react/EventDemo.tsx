@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useEvent } from '@react-utils/hooks';
+import { useEvent } from '@vaclock/utils';
 
 export const EventDemo = () => {
   const [count, setCount] = useState(0);

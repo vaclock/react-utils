@@ -1,5 +1,5 @@
 import React from 'react';
-import { useCountdown } from '@react-utils/hooks';
+import { useCountdown } from '@vaclock/utils';
 
 export const CountdownDemo = () => {
   const [time, format] = useCountdown({

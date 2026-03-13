@@ -12,7 +12,7 @@
 ## 安装
 
 ```bash
-pnpm add @react-utils/hooks
+pnpm add @vaclock/utils
 ```
 
 ## 快速开始
