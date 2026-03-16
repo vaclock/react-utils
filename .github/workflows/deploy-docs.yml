@@ -24,6 +24,7 @@ jobs:
   # 构建任务
   build:
     runs-on: ubuntu-latest
+    environment: ${{ vars.BASE_URL }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
