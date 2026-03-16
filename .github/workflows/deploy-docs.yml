@@ -47,7 +47,7 @@ jobs:
         run: pnpm --filter "./packages/*" run build
 
       - name: Build docs
-        run: pnpm --filter docs run docs:build
+        run: pnpm --filter docs run build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
