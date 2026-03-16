@@ -21,7 +21,10 @@ pnpm add @vaclock/utils
 import { useCountdown } from '@vaclock/utils';
 
 function App() {
-  const { count } = useCountdown(60);
+  const { count } = useCountdown({
+    target: Date.now() + 86400 * 1000,
+    interval: 1000,
+  });
   return <div>{count}</div>;
 }
 ```

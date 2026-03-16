@@ -3,7 +3,7 @@ import { useCountdown } from '@vaclock/utils';
 
 export const CountdownDemo = () => {
   const [time, format] = useCountdown({
-    target: Date.now() + 60000,
+    target: Date.now() + 86400 * 1000,
     interval: 1000,
   });
   const formatted = format(time);
@@ -11,7 +11,7 @@ export const CountdownDemo = () => {
   return (
     <div className="demo-container">
       <div className="time-display">
-        {formatted.minutes}m {formatted.seconds}s
+        {formatted.days}d {formatted.hours}h {formatted.minutes}m {formatted.seconds}s
       </div>
       <div className="raw-value">
         Remaining ms: {time}

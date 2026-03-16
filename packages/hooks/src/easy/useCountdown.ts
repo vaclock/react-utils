@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 
 interface Options {
   target: number; // 目标时间戳（毫秒）
-  interval: number; // 刷新间隔，默认1000ms
+  interval?: number; // 刷新间隔，默认1000ms
 }
 
 function format(time: number) {
@@ -17,10 +17,10 @@ function format(time: number) {
 export function useCountdown(options: Options) {
   const { target, interval = 1000 } = options;
   const [time, setTime] = useState(Math.max(0, target - Date.now()));
+  const targetRef = useRef<number>(target);
   useEffect(() => {
-
     const timer = setInterval(() => {
-      const rest = target - Date.now();
+      const rest = targetRef.current - Date.now();
       setTime(Math.max(0, rest));
     }, interval);
 

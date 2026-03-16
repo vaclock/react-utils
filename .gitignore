@@ -11,6 +11,7 @@ out
 .docusaurus
 .vitepress/dist
 .vitepress/cache
+apps/docs/.vitepress/cache
 deps_temp_*
 storybook-static
 

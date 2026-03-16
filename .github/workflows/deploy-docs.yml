@@ -24,7 +24,6 @@ jobs:
   # 构建任务
   build:
     runs-on: ubuntu-latest
-    environment: ${{ vars.BASE_URL }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -48,6 +47,8 @@ jobs:
         run: pnpm --filter "./packages/*" run build
 
       - name: Build docs
+        env:
+          BASE_URL: ${{ vars.BASE_URL }}
         run: pnpm --filter docs run build
 
       - name: Upload artifact

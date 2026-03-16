@@ -8,7 +8,7 @@
 import { useCountdown } from '@vaclock/utils';
 
 const [time, format] = useCountdown({
-  target: Date.now() + 60000,
+  target: Date.now() + 86400 * 1000,
   interval: 1000,
 });
 ```
