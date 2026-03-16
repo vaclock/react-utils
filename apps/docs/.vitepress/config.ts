@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   // 部署到 GitHub Pages 时，base 需要设置为 '/<repo-name>/'
-  base: '/react-utils/',
+  base: process.env.BASE_URL || '/',
   title: "React Utils",
   description: "A collection of React Hooks and Utilities",
   vite: {
